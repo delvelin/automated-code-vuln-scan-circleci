@@ -40,3 +40,4 @@ workflows:
     # - deploy:
     #     requires:
     #       - test-java
+    #       - test-java
