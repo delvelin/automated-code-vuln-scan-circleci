@@ -12,11 +12,6 @@ repositories {
 
 dependencies {
 //    testImplementation 'org.jetbrains.kotlin:kotlin-test'
-
-    implementation 'org.apache.struts:struts2-core:2.5.10'
-    implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
-    implementation 'com.google.guava:guava:24.1.1-jre'
-
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation('io.github.hangga:delvelin-plugin:0.2.2-beta')

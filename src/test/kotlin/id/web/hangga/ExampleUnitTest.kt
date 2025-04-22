@@ -1,7 +1,6 @@
 package id.web.hangga
 
 import io.github.hangga.delvelin.Delvelin
-import io.github.hangga.delvelin.LogListener
 import io.github.hangga.delvelin.properties.OutputFileFormat
 import org.junit.jupiter.api.Test
 import java.lang.Thread.sleep
@@ -75,8 +74,7 @@ class ExampleUnitTest {
 
     @Test
     fun `vulnerability test`() {
-        Delvelin()
-            .setOutputFormat(OutputFileFormat.HTML)
+        Delvelin().setOutputFormat(OutputFileFormat.HTML)
             .setAutoLaunchBrowser(true) // auto open browser for HTML format
             .setShowDate(true) // for Console LOG format
             .scan()
